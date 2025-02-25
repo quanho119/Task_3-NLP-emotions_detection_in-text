@@ -18,19 +18,21 @@ To use a Jupyter Notebook in Google Colab:
 1. Go to [Google Colab](https://colab.research.google.com/).
 2. Click on **File** > **Upload Notebook**.
 3. Select the `.ipynb` file from your local machine.
-4. Once uploaded, make sure to mount Google Drive if needed:
+4. Once uploaded, make sure to mount Google Drive:
 
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
    ```
-5. Replace `<your-directory>` with the correct path in your drive to your dataset before running the code.
+   
+5. Replace "/content/drive/MyDrive/Training/Train" with the correct path in your Google Drive to your dataset before running the code.
+   
    ```python
    ## Change this to your directory
    DATA_DIR = "/content/drive/MyDrive/Training/Train"
    ```
 
-Now you're ready to training  🚀
+Now you're ready to training 🚀
 
 ## License
 
