@@ -36,7 +36,7 @@ Now you're ready to training 🚀
 
 ## License
 
-This project is licensed under the '''cÁ tHể NổI TrộI'''.
+This project is licensed under the **cÁ tHể NổI TrộI**.
 
 ---
 
