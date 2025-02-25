@@ -24,15 +24,17 @@ To use a Jupyter Notebook in Google Colab:
    from google.colab import drive
    drive.mount('/content/drive')
    ```
-
-5. Change the working directory to the cloned repo (if applicable):
-
+5. Replace `<your-directory>` with the correct path in your drive to your dataset before running the code.
    ```python
-   import os
-   os.chdir('/content/your-repo')
+   ## Change this to your directory
+   DATA_DIR = "/content/drive/MyDrive/Training/Train"
    ```
 
-6. Run the notebook cells as required.
+Now you're ready to training  🚀
 
+## License
 
-Now you're ready to use your repository in Google Colab! 🚀
+This project is licensed under the [cÁ tHể NổI TrộI](LICENSE).
+
+---
+
